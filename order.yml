@@ -6,6 +6,11 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: Order
+  rabbitmq:
+    port: 5762
+    host: localhost
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
