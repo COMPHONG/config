@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   rabbitmq:
     port: 5762
-    host: localhost
+    host: 127.0.0.1
     username: guest
     password: guest
 server:
