@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    myURL:
+      path: /myURL/**
+      serviceId: PRODUCT
+    #简洁写法
+   # product: /myURL/**
+    #某些服务不需要暴露给外部,仅在内部访问
+  ignored-patterns:
+    - /**/msg
