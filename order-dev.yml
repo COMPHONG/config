@@ -1,4 +1,3 @@
-env: dev
 spring:
   datasource:
     url: jdbc:mysql://192.168.116.128:3307
