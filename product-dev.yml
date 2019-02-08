@@ -4,10 +4,10 @@ spring:
     port: 5672
     username: root
     password: 123456
-    host: 192.168.116.128
+    host: 192.168.116.129
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.116.128:3307/test
+    url: jdbc:mysql://192.168.116.129:3307/test
     username: root
     password: 123456
 server:
