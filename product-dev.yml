@@ -6,7 +6,7 @@ spring:
     host: 192.168.116.129
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.116.129:3307/test&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.116.129:3307/test?characterEncoding=utf-8
     username: root
     password: 123456
   jpa:
