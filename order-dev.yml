@@ -8,7 +8,7 @@ spring:
     name: Order
   rabbitmq:
     port: 5762
-    host: 192.168.116.128
+    host: 192.168.116.129
     username: root
     password: 123456
 eureka:
