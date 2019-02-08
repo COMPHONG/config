@@ -13,9 +13,5 @@ spring:
     host: 192.168.116.129
     username: root
     password: 123456
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
 server:
   port: 8081
