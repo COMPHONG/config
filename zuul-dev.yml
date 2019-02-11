@@ -1,1 +1,8 @@
 
+zuul:
+  routes:
+    order: /myOrder/**
+  ignored-patterns:
+    - /order/**
+  # 全局敏感头放行(可以接收到cookie...)
+  sensitive-headers:
