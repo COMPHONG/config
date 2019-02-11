@@ -1,7 +1,7 @@
 
 zuul:
   routes:
-    user: /myUser/**/**
+    user: /myuser/**
   ignored-patterns:
     - /user/**
   # 全局敏感头放行(可以接收到cookie...)
